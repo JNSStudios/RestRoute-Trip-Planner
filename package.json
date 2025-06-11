@@ -13,7 +13,6 @@
   },
   "author": "JNS",
   "type": "commonjs",
-  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
