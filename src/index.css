@@ -1,0 +1,110 @@
+#ui-wrapper{
+    pointer-events: auto; /* allows the map to receive pointer events */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 23%; /* or a fixed width like 300px */
+    z-index: 10;
+    padding-top: 10px;
+}
+
+header {
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 50px;
+    
+        
+
+}
+
+#navigation {
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* ← add this */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+.knewave-regular {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.funnel-sans-300 {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+input.location  {
+    width: 75%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.location-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.location-inputs label {
+    margin-right: 8px;
+}
+
+.break-inputs {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 10px;
+}
+
+
+.break-inputs label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.break-interval {
+    width: 80px; /* or whatever width you want */
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+}
+
+
+
+#ui-wrapper input,
+#ui-wrapper select,
+#ui-wrapper button,
+#ui-wrapper label {
+  pointer-events: auto; /* make interactive elements clickable again */
+}
+
+.dropshadow{
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 1.00);
+}
